@@ -1,0 +1,15 @@
+---
+layout: default
+title: projects
+permalink: /projects/
+---
+<h1>Latest Projects</h1>
+
+<ul>
+  {% for project in site.posts %}
+    <li>
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      {{ project.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
