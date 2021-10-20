@@ -13,36 +13,52 @@ permalink: /CV/
 <ul>
   {% assign ordered_jobs = site.jobs | sort:"priority" %}
   {% for job in ordered_jobs %}
-    <li> 
-      <h3>{{ job.title }}</h3>
-      <span class="company">{{ job.company }}</span>
-      <span class="date">{{ job.employment-date }}</span>
-      <p class="job-description">{{ job.content | markdownify }}</p>
-    </li>
+    {% if job.show == true %}
+      <li> 
+        <h3>{{ job.title }}</h3>
+        <span class="company">{{ job.company }}</span>
+        <span class="date">{{ job.employment-date }}</span>
+        <p class="job-description">{{ job.content | markdownify }}</p>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
 <h2>Education</h2>
   <ul>
     {% for education in site.education %}
-    <li>
-      <h3>{{ education.institution }}</h3>
-      <span class="date">{{ education.education-date }}</span>
-      <span>{{ education.degree }}</span>
-      <p>{{ education.content | markdownify }}</p>
-    </li>
+      {% if education.show == true %}
+        <li>
+          <h3>{{ education.institution }}</h3>
+          <span class="date">{{ education.education-date }}</span>
+          <span>{{ education.degree }}</span>
+          <p>{{ education.content | markdownify }}</p>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
 <h2>Skills</h2>
+  <ul>
+    {% assign ordered_skills = site.skills | sort:"priority" %}
+    {% for cat in ordered_skills %}
+      {% if cat.show == true %}
+      <li> 
+        <h3>{{ cat.title }}</h3>
+        <p>{{ cat.content | markdownify }}</p>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
 
 <h2>Projects</h2>
   <ul>
     {% assign ordered_projects = site.projects | sort:"priority" %}
     {% for project in ordered_projects %}
-      {% if project.show-in-cv == true %}
+      {% if project.show == true %}
         <li>
-          <h3><a href="{{ project.url }}">{{ project.title }}</a></h2>
+          <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
           {{ project.description }}
         </li>
       {% endif %}
