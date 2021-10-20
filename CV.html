@@ -11,30 +11,25 @@ permalink: /CV/
 
 <h2>Professional Experience</h2>
 <ul>
-  <li>
-    <h3>Research Assistant/Thought Partner</h3>
-      <span class="date">January 2021 - present</span>
-      <p></p>
-  </li>
-  <li>
-    <h3>Geek Squad - Consultation Agent</h3>
-      <span class="date">2020 - present</span>
-      <p></p>
-  </li>
-  <li>
-    <h3>Interlochen Philharmonic - Stage Manager</h3>
-      <span class="date">Summer 2018</span>
-      <p></p>
-  </li>
+  {% for job in site.jobs %}
+    <li> 
+      <h3>{{ job.title }}</h3>
+      <span class="company">{{ job.company }}</span>
+      <span class="date">{{ job.employment-date }}</span>
+      <p class="job-description">{{ job.content | markdownify }}</p>
+    </li>
+  {% endfor %}
 </ul>
 
 <h2>Education</h2>
   <ul>
+    {% for education in site.education %}
     <li>
-      <h3>University of Rochester - Eastman School of Music</h3>
-      <span class="date">2015-2019</span>
-      <span>Bachelor of Music, French Horn Performance</span>
+      <h3>{{ education.institution }}</h3>
+      <span class="date">{{ education.education-date }}</span>
+      <span>{{ education.degree }}</span>
     </li>
+    {% endfor %}
   </ul>
 
 <h2>Skills</h2>

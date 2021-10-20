@@ -53,6 +53,7 @@ url: "https://zacharesmer.com" # the base hostname & protocol for your site, e.g
 #   - vendor/ruby/
 collections:
   projects:
+    output: true
   jobs:
   education:
   skills:
