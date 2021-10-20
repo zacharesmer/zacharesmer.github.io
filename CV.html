@@ -11,7 +11,8 @@ permalink: /CV/
 
 <h2>Professional Experience</h2>
 <ul>
-  {% for job in site.jobs %}
+  {% assign ordered_jobs = site.jobs | sort:"priority" %}
+  {% for job in ordered_jobs %}
     <li> 
       <h3>{{ job.title }}</h3>
       <span class="company">{{ job.company }}</span>
@@ -28,6 +29,7 @@ permalink: /CV/
       <h3>{{ education.institution }}</h3>
       <span class="date">{{ education.education-date }}</span>
       <span>{{ education.degree }}</span>
+      <p>{{ education.content | markdownify }}</p>
     </li>
     {% endfor %}
   </ul>
@@ -36,7 +38,8 @@ permalink: /CV/
 
 <h2>Projects</h2>
   <ul>
-    {% for project in site.projects %}
+    {% assign ordered_projects = site.projects | sort:"priority" %}
+    {% for project in ordered_projects %}
       {% if project.show-in-cv == true %}
         <li>
           <h3><a href="{{ project.url }}">{{ project.title }}</a></h2>
