@@ -34,4 +34,14 @@ permalink: /CV/
 
 <h2>Skills</h2>
 
-
+<h2>Projects</h2>
+  <ul>
+    {% for project in site.projects %}
+      {% if project.show-in-cv == true %}
+        <li>
+          <h3><a href="{{ project.url }}">{{ project.title }}</a></h2>
+          {{ project.description }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
