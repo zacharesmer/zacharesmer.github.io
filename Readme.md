@@ -1,5 +1,4 @@
 # How to edit the content of this website 
-(Alternate title: a note for myself in six months when I have to add to this)
 
 ## CV
 The sections of the CV are implemented as collections. They all support a `priority` attribute, which is a number that determines how it will be displayed in the CV. Lower numbers are closer to the top. They also all support a `show` attribute, which if set to false means the item will not be shown on the CV page. In the case of projects, a project with `show` set to `false`  will still appear on the project page.
