@@ -2,6 +2,8 @@
 
 ## CV
 The sections of the CV are implemented as collections. They all support a `priority` attribute, which is a number that determines how it will be displayed in the CV. Lower numbers are closer to the top. They also all support a `show` attribute, which if set to false means the item will not be shown on the CV page. In the case of projects, a project with `show` set to `false`  will still appear on the project page.
+### Personal info
+Edit your name, github, and email in the front matter of the CV.html page.
 ### Jobs
 To add a job, copy the `_templates/job.md` file into `_jobs`.
 
