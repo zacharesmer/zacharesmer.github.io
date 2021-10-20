@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --main-bg-color: #333;
+  --main-bg-color: #111;
   --nav-bg-color: #222;
-  --nav-current-color: #111;
+  --nav-current-color: #333;
   --main-text-color: #f8f8f8;
-  --main-link-color: #4ac754;
+  --main-link-color: #4ac554;
 }
 
 html {
@@ -20,6 +20,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 
 body {
@@ -55,7 +60,8 @@ nav {
 }
 
 .current {
-  color: green;
+  color: var(--main-text-color);
   background-color: var(--nav-current-color);
 }
+
 
