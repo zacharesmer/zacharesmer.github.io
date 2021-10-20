@@ -1,6 +1,6 @@
 ---
 title: Software
-priority: 13
+priority: 101
 show: true
 ---
 
@@ -13,4 +13,4 @@ show: true
 - VirtualBox
 - Windows 7, 10, and 11
 - Mac OS
-- Microsoft 365 accounts
+- Microsoft 365

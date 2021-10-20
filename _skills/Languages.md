@@ -1,6 +1,6 @@
 ---
 title: Languages and associated tools
-priority: 11
+priority: 100
 show: true
 ---
 - Python
