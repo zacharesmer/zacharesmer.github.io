@@ -4,13 +4,15 @@ priority: 101
 show: true
 ---
 
-- Jekyll
-- vim
+- Jekyll and Github pages
+- Git
+- Vim
 - Linux
-  - Primarily Ubuntu
+  - Ubuntu
   - Arch Linux
 - KVM and QEMU 
 - VirtualBox
 - Windows 7, 10, and 11
 - Mac OS
 - Microsoft 365
+- IntelliJ IDEA
