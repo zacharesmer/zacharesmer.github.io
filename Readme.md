@@ -56,4 +56,4 @@ The projects collection is used to generate a projects page and the projects sec
     priority: 
     ---
 
-These will be displayed in order of priority, with lower numbers closer to the top of the page.
+These will be displayed in order of priority on the CV, with lower numbers closer to the top of the page. They will be displayed in reverse chronological order on the projects page, with newer projects closer to the top.
