@@ -2,11 +2,15 @@
 layout: default
 title: CV
 permalink: /CV/
+
+my-name: Zach Resmer
+github: zacharesmer
+email: email@zacharesmer.com
 ---
-<h1>Zach Resmer</h1>
+<h1>{{ page.my-name }}</h1>
 <address>
-  <div>github: <a href="https://github.com/zacharesmer">zacharesmer</a></div>
-  <div>email: <a href="mailto:email@zacharesmer.com">email@zacharesmer.com</a></span>
+  <div>github: <a href="https://github.com/{{ page.github }}">{{ page.github }}</a></div>
+  <div>email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></span>
 </address>
 
 <h2 class="cv-section-heading">Professional Experience</h2>
