@@ -9,12 +9,12 @@ permalink: /CV/
   <span>email: hello@zacharesmer.com</span>
 </address>
 
-<h2>Professional Experience</h2>
+<h2 class="cv-section-heading">Professional Experience</h2>
 <ul>
   {% assign ordered_jobs = site.jobs | sort:"priority" %}
   {% for job in ordered_jobs %}
     {% if job.show == true %}
-      <li> 
+      <li class="job"> 
         <h3>{{ job.title }}</h3>
         <span class="company">{{ job.company }}</span>
         <span class="date">{{ job.employment-date }}</span>
@@ -24,12 +24,12 @@ permalink: /CV/
   {% endfor %}
 </ul>
 
-<h2>Education</h2>
+<h2 class="cv-section-heading">Education</h2>
   <ul>
     {% assign ordered_education = site.education | sort:"priority" %}
     {% for education in ordered_education %}
       {% if education.show == true %}
-        <li>
+        <li class="education">
           <h3>{{ education.institution }}</h3>
           <span class="date">{{ education.education-date }}</span>
           <span>{{ education.degree }}</span>
@@ -39,12 +39,12 @@ permalink: /CV/
     {% endfor %}
   </ul>
 
-<h2>Skills</h2>
+<h2 class="cv-section-heading">Skills</h2>
   <ul>
     {% assign ordered_skills = site.skills | sort:"priority" %}
     {% for cat in ordered_skills %}
       {% if cat.show == true %}
-      <li> 
+      <li class="skill-category"> 
         <h3>{{ cat.title }}</h3>
         <p>{{ cat.content | markdownify }}</p>
       </li>
@@ -53,12 +53,12 @@ permalink: /CV/
   </ul>
 
 
-<h2>Projects</h2>
+<h2 class="cv-section-heading">Projects</h2>
   <ul>
     {% assign ordered_projects = site.projects | sort:"priority" %}
     {% for project in ordered_projects %}
       {% if project.show == true %}
-        <li>
+        <li class="project">
           <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
           {{ project.description }}
         </li>
