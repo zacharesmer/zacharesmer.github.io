@@ -12,6 +12,4 @@ show: true
   - Gradle
 - C
 - HTML
-- CSS
-  - Sass
 - bash
