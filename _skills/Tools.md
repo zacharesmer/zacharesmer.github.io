@@ -6,4 +6,11 @@ show: true
 
 - Jekyll
 - vim
-- Linux, primarily Ubuntu
+- Linux
+  - Primarily Ubuntu
+  - Arch Linux
+- KVM and QEMU 
+- VirtualBox
+- Windows 7, 10, and 11
+- Mac OS
+- Microsoft 365 accounts
