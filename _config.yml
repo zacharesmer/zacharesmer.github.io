@@ -51,4 +51,8 @@ url: "https://zacharesmer.com" # the base hostname & protocol for your site, e.g
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-#
+collections:
+  projects:
+  jobs:
+  education:
+  skills:
