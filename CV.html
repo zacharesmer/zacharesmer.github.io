@@ -16,8 +16,8 @@ permalink: /CV/
     {% if job.show == true %}
       <li class="job"> 
         <h3>{{ job.title }}</h3>
-        <span class="company">{{ job.company }}</span>
-        <span class="date">{{ job.employment-date }}</span>
+        <div class="company">{{ job.company }}</div>
+        <div class="date">{{ job.employment-date }}</div>
         <p class="job-description">{{ job.content | markdownify }}</p>
       </li>
     {% endif %}
@@ -31,8 +31,8 @@ permalink: /CV/
       {% if education.show == true %}
         <li class="education">
           <h3>{{ education.institution }}</h3>
-          <span class="date">{{ education.education-date }}</span>
-          <span>{{ education.degree }}</span>
+          <div>{{ education.degree }}</div>
+          <div class="date">{{ education.education-date }}</div>
           <p>{{ education.content | markdownify }}</p>
         </li>
       {% endif %}
