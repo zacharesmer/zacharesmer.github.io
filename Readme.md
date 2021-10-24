@@ -31,4 +31,6 @@ Each page in the nav bar is a markdown or html file in the root directory. The n
   - name: 
     link: 
 ```
+`name` is what will appear in the nav bar, and `link` is the permalink attribute of the page.
+
 Similarly, those are the places to edit if you want to change the name of a page or its link in the nav bar.
