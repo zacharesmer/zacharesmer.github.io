@@ -4,12 +4,12 @@ priority: 100
 show: true
 ---
 - Python
-  - Numpy
-  - Matplotlib
-  - Selenium
 - Java
   - JUnit 4 and 5
   - Gradle
+  - IntelliJ IDEA
 - C
+- Bash script
 - HTML
-- bash
+- CSS
+- LaTeX
