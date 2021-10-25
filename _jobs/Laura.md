@@ -1,7 +1,7 @@
 ---
 layout: job
 company: Laura Gross, Bridgewater State University
-title: Collaborator and Assistant
+title: Collaborator
 priority: 10
 employment-date: "January 2021-present"
 show: true
