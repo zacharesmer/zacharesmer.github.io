@@ -7,9 +7,6 @@ employment-date: 2016-2020
 show: true
 ---
 - Play concerts with local ensembles
-  - Oswego Opera
-  - Syracuse Symphony (Symphoria)
-  - Cleveland Winds
 - Teach private lessons
 - Present outreach programs
   - "The Science of Sound" (Rochester Museum and Science Center, 2017)
