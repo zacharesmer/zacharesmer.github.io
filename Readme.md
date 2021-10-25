@@ -1,3 +1,6 @@
+---
+permalink: /how-to-edit/
+---
 # How to edit the content of this website 
 
 ## CV
