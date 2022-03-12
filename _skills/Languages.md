@@ -4,12 +4,18 @@ priority: 100
 show: true
 ---
 - Python
+  - Selenium
+  - Flask
+  - Numpy
+  - Matplotlib
 - Java
   - JUnit 4 and 5
   - Gradle
   - IntelliJ IDEA
 - C
-- Bash script
+  - Makefiles
+- Bash
+- Javascript
 - HTML
 - CSS
 - LaTeX
