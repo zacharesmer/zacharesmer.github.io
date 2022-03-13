@@ -46,3 +46,4 @@ Add more patterns in lights.py. Any pattern function must have an entry in the `
 - Make brightness slider work with all the patterns
 - Make the server something more hardened than a flask development server
 - Connect some Google smart home actions to control the lights
+- Make the server a systemd service so it starts automatically
