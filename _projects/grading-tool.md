@@ -5,7 +5,7 @@ date: May 2021
 categories: Java, JUnit, grading, gradle
 description: A grading tool to test student java projects in IntelliJ IDEA, made with bash script
 show: true
-priority: 99
+priority: 50
 ---
 
 This tool takes a zip file from Blackboard, extracts each student's submitted work, and moves the relevant files one by one into a  project open in IntelliJ IDEA (or likely another IDE, but that is untested). There, tests and debugging can be performed. This is an example/template version, with student and assignment details omitted. It has been tested on Ubuntu and Mac OS.
