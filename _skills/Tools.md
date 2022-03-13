@@ -11,4 +11,3 @@ show: true
 - VirtualBox
 - Vim
 - Jekyll
-- Selenium
