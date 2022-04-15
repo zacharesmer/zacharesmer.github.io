@@ -3,7 +3,7 @@ layout: job
 company: Best Buy
 title: Geek Squad, Consultation Agent
 priority: 9
-employment-date: "March 2020-present"
+employment-date: "March 2020-April 2022"
 show: true
 ---
 - Communicate technical topics clearly and accurately to people with little technical knowledge
