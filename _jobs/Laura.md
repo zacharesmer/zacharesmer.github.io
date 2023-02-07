@@ -1,10 +1,11 @@
 ---
 layout: job
 company: Bridgewater State University, with faculty partner
-title: Collaborator
+title: Software Developer and Teaching Assistant
 priority: 10
 employment-date: "January 2021-present"
 show: true
 ---
-- Design and implement tests and a grading framework for student assignments using Java, JUnit 5, gradle, and bash. Assist in planning and designing assignments on topics including Object Oriented Programming, REST APIs, GUIs with JavaFX, and algorithm analysis.
-- Provide technical support for and research issues concerning IntelliJ IDEA and distribution of assignments on multiple platforms, including Mac OS, Windows, and Linux. Assist with proofreading and typsetting documents in LaTeX.
+- Design, implement, and document tests and a grading framework for student assignments using Java, JUnit 5, Gradle, and bash. 
+- Assist in planning, designing, and distributing assignments for the classes Computer Science II and Analysis of Algorithms. Topics covered include Object Oriented Programming, REST APIs, GUIs with JavaFX, version control (Git and Github), data structures, and algorithm analysis.
+- Distribute assignment code and ensure compatibility on multiple platforms, including Mac OS, Windows, and Linux.

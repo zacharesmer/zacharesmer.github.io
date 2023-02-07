@@ -12,6 +12,9 @@ show: true
   - JUnit 4 and 5
   - Gradle
   - IntelliJ IDEA
+- PHP
+  - Laravel
+  - XDebug
 - C
   - Makefiles
 - Bash
