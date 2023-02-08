@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /reading-list/
+permalink: /ch/reading-list/
 title: Books and classes I have enjoyed
 ---
 # Books and classes that I have enjoyed
